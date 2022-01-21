@@ -1,14 +1,14 @@
 import 'package:design_system/widgets/button/custon_button_widget.dart';
 import 'package:flutter/material.dart';
 
-class LoginPageWidget extends StatefulWidget {
-  const LoginPageWidget({Key? key}) : super(key: key);
+class LoginPage extends StatefulWidget {
+  const LoginPage({Key? key}) : super(key: key);
 
   @override
   _LoginPageWidgetState createState() => _LoginPageWidgetState();
 }
 
-class _LoginPageWidgetState extends State<LoginPageWidget> {
+class _LoginPageWidgetState extends State<LoginPage> {
   late TextEditingController textController1;
   late TextEditingController textController2;
   late bool passwordVisibility;
